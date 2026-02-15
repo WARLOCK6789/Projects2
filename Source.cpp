@@ -1,15 +1,19 @@
 #include <iostream>
+#include <cstdlib>
+#include <windows.h>
 using namespace std;
 
 int main() {
     int number;
-    setlocale (LC_ALL, "Rus");
+    SetConsoleCP(1251);
+    SetConsoleOutputCP(1251);
 
-    cout << "Ââåäèòå ÷èñëî:" << endl;
+    cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‡Ð¸ÑÐ»Ð¾:" << endl;
     cin >> number;
 
-    cout << "Âû ââåëè:" << endl;
+    cout << "Ð’Ñ‹ Ð²Ð²ÐµÐ»Ð¸:" << endl;
     cout << number << endl;
 
     return EXIT_SUCCESS;
+
 }
