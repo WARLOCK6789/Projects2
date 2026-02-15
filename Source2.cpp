@@ -7,15 +7,16 @@ int main() {
     SetConsoleCP(1251);
     SetConsoleOutputCP(1251);
 
-    string word;
+    std::string word;
 
-    cout << "Ââåäèòå ñëîâî:" << std::endl;
-    cin >> word;
+    std::cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÑÐ»Ð¾Ð²Ð¾:" << std::endl;
+    std::cin >> word;
 
-    cout << "Âû ââåëè:" << std::endl;
-    cout << word << std::endl;
+    std::cout << "Ð’Ñ‹ Ð²Ð²ÐµÐ»Ð¸:" << std::endl;
+    std::cout << word << std::endl;
 
     return 0;
 }
+
 
 
